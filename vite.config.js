@@ -1,7 +1,8 @@
+// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  base: '/web_phim/', // ← thêm dòng này
   plugins: [react()],
-  base: '/', // quan trọng nếu deploy ở root
 })
