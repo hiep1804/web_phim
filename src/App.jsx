@@ -12,9 +12,13 @@ function App() {
   )
 }
 function Home() {
+  const s = ["/mai_mai_khong_la_anh.mp4","/neu_ngay_ay.mp4"];
   return (
     <>
-
+      {s.map((x,idx)=><div>
+        <p>id: {idx} name{x}</p>
+        <br/>
+      </div>)}
     </>
   );
 }
