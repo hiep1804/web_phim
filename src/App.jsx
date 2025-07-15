@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 function App() {
   return (
-    <Router>
+    <Router basename='/web_phim'>
       <Routes>
         <Route path="/video/:id" element={<Video />} />
         <Route path="/home" element={<Home />} />
