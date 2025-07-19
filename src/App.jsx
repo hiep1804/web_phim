@@ -25,7 +25,11 @@ function Home() {
     </>
   );
 }
-
+function H(){
+  return(
+    <h1>Home</h1>
+  )
+}
 function Video() {
   const { id } = useParams();
   const s = ["/mai_mai_khong_la_anh.mp4", "/neu_ngay_ay.mp4"];
